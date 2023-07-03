@@ -18,8 +18,6 @@ setup(
     ],
     python_requires='>=3.6',
     entry_points={
-        'console_scripts': [
-            'create-ml-dir = PyHelper.create_ml_dir:main',
-        ],
+        'console_scripts': ['PyHelper=PyHelper.main:main'],
     },
 )

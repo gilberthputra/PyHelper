@@ -12,7 +12,15 @@ def create_ml_dir(project_path):
         'reports', 'reports/figures',
         'docs']
     
-    files = ['README.md', '.gitignore', 'setup.py', 'requirements.txt', 'Makefile', 'Dockerfile', '.dockerignore']
+    files = ['src/data/make_dataset.py', 'src/features/build_features.py', 
+             'src/models/train_model.py', 'src/models/predict_model.py', 
+             'README.md', 
+             '.gitignore', 
+             'setup.py', 
+             'requirements.txt', 
+             'Makefile', 
+             'Dockerfile', 
+             '.dockerignore']
 
     # Create each directory
     for dir_name in dirs:
